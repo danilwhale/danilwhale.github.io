@@ -1,0 +1,17 @@
+#https://drive.google.com/file/d/1gZdBJ0TFuNrVdtNB5iXqnttehflAQbW1/view?usp=sharing
+# GPARTED LIVE
+# https://downloads.sourceforge.net/gparted/gparted-live-1.5.0-1-amd64.iso
+menuentry "Gparted live" {
+      set isofile="/home/onworks/gparted-live-1.5.0-1-amd64.iso"
+      loopback loop $isofile
+      linux (loop)/live/vmlinuz boot=live config union=overlay username=user components noswap noeject vga=788 ip= net.ifnames=0 toram=filesystem.squashfs findiso=$isofile
+      initrd (loop)/live/initrd.img
+    }
+
+# WINDOWS 7
+# https://dl.malwarewatch.org/windows/Windows%207%20%28x64%29.iso
+menuentry "Windows 7" --class windows --class os {
+insmod ntfs
+search --no-floppy --set=root --fs-uuid 4EF1E5597FC9E65B
+ntldr /bootmgr
+}
