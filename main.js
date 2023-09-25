@@ -17,6 +17,7 @@ function loadWheatleyCrab() {
 
 function initNavbar() {
     $("#navbar").load("navbar.html")
+    
 }
 
 window.onload = function () {
