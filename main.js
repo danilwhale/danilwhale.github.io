@@ -20,6 +20,5 @@ function initNavbar() {
 }
 
 window.onload = function () {
-    loadWheatleyCrab()
     initNavbar()
-};
+}

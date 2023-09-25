@@ -13,12 +13,8 @@ body {
     backdrop-filter: blur(50%);
 }
 .main-panel {
-    margin: 10rem;
+    margin: 8rem;
     padding: 5rem;
-}
-
-.centered-text {
-    text-align: center;
 }
 
 /* separators */
@@ -50,4 +46,14 @@ a:hover {
 a:active {
     color: #fafafa;
     text-decoration: none;
+}
+
+/* util styles */
+.centered-text {
+    text-align: center;
+}
+
+.round-embed {
+    border: 2px white solid;
+    border-radius: 50%;
 }
