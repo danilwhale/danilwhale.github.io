@@ -1,12 +1,25 @@
+
 function loadWheatleyCrab() {
+    const wheatleyCrab = document.getElementById("wheatley-crab")
+
     fetch("storage/wheatley-crab.txt")
         .then((res) => res.text())
         .then((text) => {
-            document.getElementById("wheatley-crab").innerText = text
+            wheatleyCrab.innerText = text
+            wheatleyCrab.innerText += "\nw h e a t l e y  c r a b"
         })
         .catch((e) => console.log(e))
+
+    wheatleyCrab.onclick = function () {
+        window.open("https://youtu.be/v47zSNZcyPQ")
+    }
 }
 
-window.onload = function() {
+function initNavbar() {
+    $("#navbar").load("navbar.html")
+}
+
+window.onload = function () {
     loadWheatleyCrab()
+    initNavbar()
 };
