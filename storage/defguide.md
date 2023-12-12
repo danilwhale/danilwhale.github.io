@@ -26,6 +26,7 @@
 
 ## 4. reinstall vendetta
 > you probably need to backup plugins and themes using CloudSync before reinstalling
+
 ### 4.1. go back to home
 ![home tab](defguide-screenshots/venman-settings-c.png)
 ### 4.2. press on uninstall, confirm and wait till it uninstalls
