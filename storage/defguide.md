@@ -1,3 +1,5 @@
+# THIS GUIDE IS DEPRECATED FOR ANYTHING >=1.1.10
+
 # DEFINITIVE GUIDE HOW TO DOWNGRADE VENDETTA
 ## 1. open vendetta manager
 ### 1.1. look for vendetta manager

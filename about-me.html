@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- embed shit -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="danilwhale's website">
+    <meta property="og:description" content="duh">
+    <meta name="theme-color" content="#2A3A5E">
+
+    <meta name="color-scheme" content="dark" />
+
+    <title>danilwhale's website</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <h1>about me</h1>
+    
+    <div class="panel">
+        <a href="https://discord.com/users/568756569261604885"><img class="profile-avatar" id="discord-avatar"></a>
+        <h2 id="discord-name">hold on</h2>
+        <h3 id="discord-username">hold on</h3>
+    </div>
+
+    <p>i just like coding random things (most of them are abondoned lmao), i code mostly on c#, but can code on other things when im bored.</p> <br/>
+
+    <a href="https://github.com/danilwhale" class="href-button">my github</a>
+    <a href="https://discord.com/users/568756569261604885" class="href-button">my discord</a>
+
+    <script>
+        fetch("https://discordlookup.mesavirep.xyz/v1/user/568756569261604885")
+            .then((raw) => raw.json())
+            .then((json) => {
+                var avatarImg = document.getElementById("discord-avatar")
+                var nameHeader = document.getElementById("discord-name")
+                var usernameHeader = document.getElementById("discord-username")
+
+                avatarImg.src = json.avatar.link
+                nameHeader.textContent = json.global_name
+                usernameHeader.textContent = `@${json.tag.substring(0, json.tag.indexOf('#'))}`
+            })
+    </script>
+</body>
+
+</html>
