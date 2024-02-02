@@ -18,10 +18,16 @@ I HATE JAVASCRIPT I HATE JAVASCRIPT I HATE JAVASCRIPT I HATE JAVASCRIPT I HATE J
 I HATE JAVASCRIPT I HATE JAVASCRIPT I HATE JAVASCRIPT I HATE JAVASCRIPT I HATE JAVASCRIPT I HATE JAVASCRIPT I HATE JAVASCRIPT 
 */
 
+import { handleTerminalInput } from './the_terminal.js'
+
 function loadNavbar() {
     $("#navbar").load("navbar.html")
 }
 
 window.onload = () => {
     loadNavbar();
+}
+
+window.onkeydown = (meow) => {
+    handleTerminalInput(meow.key)
 }

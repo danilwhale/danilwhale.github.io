@@ -4,43 +4,38 @@ body {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.8em;
     font-weight: 400;
-    background-color: rgb(13, 16, 34);
     color: white;
     text-align: center;
+
+    background-color: rgb(13, 16, 34);
+
     margin: 0%;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.5em;
-}
-
-h3 {
-    font-size: 1em;
 }
 
 .comment {
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,8,0.4) 0%, rgba(0.0, 0.0, 0.0, 0.0) 100%);
+    background: rgba(0.0, 0.0, 0.8, 0.5);
+
     font-style: italic;
     color: rgb(136, 136, 136);
+    text-align: left;
+
     padding: 2em;
     margin: 2em;
-    border-radius: 0.4em;
-    text-align: left;
 }
 
 button {
     background-color: rgb(23, 25, 42);
+
     border-radius: 0.2em;
     border-style: hidden;
+
     padding: 1em;
     margin: 2em;
+
     font-family: 'JetBrains Mono', monospace;
     color: white;
+
     cursor: pointer;
 }
 
@@ -63,6 +58,7 @@ a ::before {
     border-radius: 0.8em;
     border-style: solid;
     border-color: rgba(30, 30, 43, 0.8);
+
     padding: 2em;
     margin: 2em auto;
     width: 40%;
@@ -71,6 +67,7 @@ a ::before {
 .profile-avatar {
     width: 72px;
     height: 72px;
+
     border-style: solid;
     border-width: 0.2em;
     border-color: white;
@@ -82,6 +79,7 @@ img {
     border-color: white;
     border-width: 0.1em;
     border-radius: 0.2em;
+
     margin: 1em;
 }
 
@@ -92,23 +90,51 @@ img {
 
 .nav-item {
     display: inline-block;
+
     margin: 1em;
+
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
+
     cursor: pointer;
     user-select: none;
 }
 
 .href-button {
     background-color: rgb(23, 25, 42);
+
     border-radius: 0.2em;
     border-style: hidden;
+
     padding: 1em;
     margin: 2em;
+
     font-family: 'JetBrains Mono', monospace;
     color: white;
+
     cursor: pointer;
+
     text-decoration: none;
     font-style: normal;
+}
+
+.terminal {
+    display: flex;
+    position: absolute;
+    white-space: pre;
+
+    text-align: left;
+
+    left: 10%;
+    top: 10%;
+
+    background-color: rgba(0.0, 0.0, 0.0, 0.7);
+
+    padding: 1em;
+    width: 40%;
+    height: 30%;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
