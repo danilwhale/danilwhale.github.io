@@ -9,7 +9,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <p class="splash">${getRandomText()}</p>
     
     <div class="box">
-        ${await createAvatarHtml()} <br/>
+        ${createAvatarHtml()} <br/>
         hi! im danil! im just coding things that doesn't work :D <br/>
         my main programming language is c# and maybe c/c++ <br/>
         i rarely write code on html, typescript, javascript
