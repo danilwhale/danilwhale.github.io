@@ -1,6 +1,5 @@
 import './style.css'
 import getRandomText from "./random_text.ts";
-import createAvatarHtml from "./avatar.ts";
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -9,7 +8,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <p class="splash">${getRandomText()}</p>
     
     <div class="box">
-        ${createAvatarHtml()} <br/>
         hi! im danil! im just coding things that doesn't work :D <br/>
         my main programming language is c# and maybe c/c++ <br/>
         i rarely write code on html, typescript, javascript
