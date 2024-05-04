@@ -16,7 +16,7 @@ function Profile() {
             const res = await fetchData()
             const json = await res.json()
 
-            setUsername(json.data.discord_user.username)
+            setUsername(json.data.discord_user.display_name)
         }
 
         const fetchAvatar = async () => {
