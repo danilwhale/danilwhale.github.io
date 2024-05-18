@@ -32,22 +32,24 @@ export default class Profile extends Component<{}, { loaded: boolean }> {
             <>
                 {this.state.loaded ?
                     <div>
-                        <img
-                            className={`rounded-full float-left m-4 mb-16 border-2 
-                            ${this.get_status_color(this.status)}`}
-                            src={this.avatar ?? './vite.svg'}
-                            onError={e => {
-                                this.avatar = 'https://github.com/danilwhale.png?size=128'
+                        <div className="flex justify-left items-center">
+                            <img
+                                className={`rounded-full m-4 border-2 
+                                    ${this.get_status_class_name(this.status)}`}
+                                src={this.avatar ?? './vite.svg'}
+                                onError={e => {
+                                    this.avatar = 'https://github.com/danilwhale.png?size=128'
 
-                                let img = e.target as HTMLImageElement
-                                img.src = this.avatar
+                                    let img = e.target as HTMLImageElement
+                                    img.src = this.avatar
 
-                                this.show_firefox_warning()
-                            }} />
+                                    this.show_firefox_warning()
+                                }} />
 
-                        <h2 className="text-3xl cursor-default">
-                            hi im {this.username}
-                        </h2>
+                            <h1 className="text-4xl cursor-default">
+                                hi im {this.username}
+                            </h1>
+                        </div>
 
                         <p>im a silly goober and also i code various stuff, most of it is being abondoned and i never come back to it</p>
                         <p>my main programming language is c#, but sometimes i write projects on different languages (ts, java, etc.)</p>
@@ -60,7 +62,7 @@ export default class Profile extends Component<{}, { loaded: boolean }> {
         )
     }
 
-    get_status_color(status: string | null) {
+    get_status_class_name(status: string | null) {
         switch (status) {
             case "online":
                 return "border-emerald-400"
