@@ -3,7 +3,7 @@ import AboutMe from "./AboutMe"
 function Window() {
   return (
     <div className="min-h-screen flex justify-center items-center">
-      <div className="bg-slate-900/60 rounded-none md:rounded-xl h-dvh md:h-96 p-0 backdrop-blur-sm" id="window">
+      <div className="bg-slate-900/60 rounded-none md:rounded-xl h-dvh md:h-fit p-0 backdrop-blur-sm" id="window">
 
         <div className="rounded-none bg-slate-600/40 md:rounded-t-xl h-8 p-0">
           <img className="float-left w-6 h-6 my-1 ml-2" src="./vite.svg" />
@@ -14,7 +14,7 @@ function Window() {
           <div className="title-bar-button" id="minimize">🗕</div>
         </div>
 
-        <div className="p-5" id="window-content">
+        <div id="window-content">
           <AboutMe />
         </div>
 
