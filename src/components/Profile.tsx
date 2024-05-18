@@ -32,9 +32,9 @@ export default class Profile extends Component<{}, { loaded: boolean }> {
             <>
                 {this.state.loaded ?
                     <div>
-                        <div className="flex justify-left items-center">
+                        <div className="flex justify-left items-center mb-5">
                             <img
-                                className={`rounded-full m-4 border-2 
+                                className={`rounded-full border-2 mr-5
                                     ${this.get_status_class_name(this.status)}`}
                                 src={this.avatar ?? './vite.svg'}
                                 onError={e => {
