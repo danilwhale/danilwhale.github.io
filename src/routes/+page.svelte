@@ -8,5 +8,5 @@
 
 <ProfileCard />
 <LinksCard />
-<!-- <GitHubStatsCard /> -->
+<GitHubStatsCard />
 <SourceCodeTail />
