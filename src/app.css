@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=JetBrains+Mono');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-color: theme('colors.slate.500');
+    text-decoration-thickness: theme('height[0.5]');
+}

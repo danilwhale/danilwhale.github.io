@@ -1,10 +1,12 @@
 <script>
-    let g = []
+	import GitHubStatsCard from "../components/GitHubStatsCard.svelte";
+	import LinksCard from "../components/LinksCard.svelte";
+	import ProfileCard from "../components/ProfileCard.svelte";
+	import SourceCodeTail from "../components/SourceCodeTail.svelte";
 
-    function add() {
-        g = [...g, 'g']
-    }
 </script>
 
-<p>{g.join('')}</p>
-<button on:click={add}>add g</button>
+<ProfileCard />
+<LinksCard />
+<!-- <GitHubStatsCard /> -->
+<SourceCodeTail />
