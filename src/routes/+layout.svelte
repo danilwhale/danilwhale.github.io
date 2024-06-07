@@ -8,7 +8,7 @@
 		backdrop-blur-lg
 		sm:p-6
 		w-full sm:w-fit
-		h-full sm:h-fit">
+		h-screen sm:h-fit">
 
 		<slot />
 	</div>
