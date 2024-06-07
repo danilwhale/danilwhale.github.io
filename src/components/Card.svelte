@@ -5,9 +5,7 @@
 </script>
 
 <div class="
-    bg-black/5 
-    border-black/30 border-2 
-    backdrop-blur-md
+    bg-black/20
     p-6 m-6">
 
     <p class="text-xl text-slate-400 mb-2">{title}</p>

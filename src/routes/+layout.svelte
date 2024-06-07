@@ -2,4 +2,14 @@
 	import '../app.css';
 </script>
 
-<slot />
+<div class="flex items-center justify-center sm:p-10">
+	<div class="
+		bg-black/30
+		backdrop-blur-lg
+		sm:p-6
+		w-full sm:w-fit
+		h-full sm:h-fit">
+
+		<slot />
+	</div>
+</div>
