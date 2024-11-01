@@ -7,13 +7,13 @@
 	let statusStyle = 'hidden';
 
 	let userPfpUrl = null;
-	let discordPfpUrl = 'https://api.lanyard.rest/568756569261604885.png';
+	let discordPfpUrl = 'https://api.lanyard.rest/1191777214467940414.png';
 	let githubPfpUrl = 'https://github.com/danilwhale.png';
 
 	let avatarUrl = githubPfpUrl;
 
 	onMount(() => {
-		fetch('https://api.lanyard.rest/v1/users/568756569261604885')
+		fetch('https://api.lanyard.rest/v1/users/1191777214467940414')
 			.then((response) => response.json())
 			.then((json) => {
 				if (!json.success) {
@@ -42,19 +42,11 @@
 						break;
 				}
 			});
-
-		fetch('https://userpfp.github.io/UserPFP/source/data.json')
-			.then((response) => response.json())
-			.then((json) => {
-				userPfpUrl = json.avatars['568756569261604885'];
-			});
 	});
 
 	function switchAvatar() {
 		if (avatarUrl.startsWith('https://github.com')) {
 			avatarUrl = discordPfpUrl;
-		} else if (avatarUrl.startsWith('https://api.lanyard.rest')) {
-			avatarUrl = userPfpUrl;
 		} else {
 			avatarUrl = githubPfpUrl;
 		}
