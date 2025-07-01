@@ -14,7 +14,7 @@ body {
     width: 100%;
 
     background: #030303 url('/bg_tile.png') repeat;
-    background-size: 64px;
+    background-size: 72px;
 
     animation: bg-scroll 10s linear infinite;
 
