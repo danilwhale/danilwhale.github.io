@@ -1,5 +1,6 @@
 <script lang="ts">
     import {OpCode} from "$lib";
+    import {WebSocket} from "ws";
 
     const userId = "1191777214467940414";
     let iconUrl = `https://api.lanyard.rest/${userId}.png`;
