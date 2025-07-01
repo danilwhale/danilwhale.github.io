@@ -1,1 +1,0 @@
-<img src="/existential_dread.gif" alt="explod">

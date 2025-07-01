@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92ef97bb-feef-4ce1-9007-50cdbec14553" name="Changes" comment="annual website redesign">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/DiscordCard.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/posts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/+layout.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/+page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/post/[slug]/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/post/[slug]/+page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/post/dementia.svx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/post/rewrite.svx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/Iosevka.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-BoldOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-Extended.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedBoldOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedExtraBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedExtraBoldOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedExtraLightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedExtraLightOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedHeavy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedHeavyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedHeavyOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedLightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedLightOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedMedium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedMediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedMediumOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedSemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedSemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedSemiBoldOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedThin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedThinItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtendedThinOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtraBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtraBoldOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtraLightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ExtraLightOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-Heavy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-HeavyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-HeavyOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-LightOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-MediumOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-Oblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-SemiBoldOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ThinItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Iosevka/WOFF2/Iosevka-ThinOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bg_tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GitHubStatsCard.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LinkItem.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LinksCard.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileCard.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SourceCodeTail.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+error.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+error.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/explod/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/existential_dread.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/awesomebg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/defguide-screenshots/menu-venman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/defguide-screenshots/venman-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/defguide-screenshots/venman-home-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/defguide-screenshots/venman-home-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/defguide-screenshots/venman-info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/defguide-screenshots/venman-settings-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/defguide-screenshots/venman-settings-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/defguide-screenshots/venman-settings-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/defguide-screenshots/venman-ver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/defguide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/duh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/me.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/onworks-windows-7/tools.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/wheatley-crab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="+layout" />
+        <option value="+error.svelte" />
+        <option value="+page.svelte" />
+        <option value="AboutMe" />
+        <option value="FavoriteMods" />
+        <option value="DiscordCard" />
+        <option value="+page" />
+        <option value="TypeScript File" />
+        <option value="rewrite.svx" />
+        <option value="NavBar" />
+        <option value="Footer" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2w4qCqE9cVeofwNUMAPOOk6XjEW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.posts.ts.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/danil/AppData/Roaming/JetBrains/WebStorm2025.1/node/versions/22.14.0/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "ts.external.directory.path": "C:\\Users\\danil\\WebstormProjects\\danilwhale.github.io\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\WebstormProjects\danilwhale.github.io\src\routes\post" />
+      <recent name="C:\Users\danil\WebstormProjects\danilwhale.github.io\src\lib\components\about" />
+      <recent name="C:\Users\danil\WebstormProjects\danilwhale.github.io\src\lib" />
+      <recent name="C:\Users\danil\WebstormProjects\danilwhale.github.io\src\components\about" />
+      <recent name="C:\Users\danil\WebstormProjects\danilwhale.github.io\static" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92ef97bb-feef-4ce1-9007-50cdbec14553" name="Changes" comment="" />
+      <created>1745311069803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745311069803</updated>
+      <workItem from="1745311071374" duration="22249000" />
+      <workItem from="1745381455582" duration="19238000" />
+      <workItem from="1745524055302" duration="3118000" />
+      <workItem from="1745557240400" duration="705000" />
+      <workItem from="1751297045426" duration="3740000" />
+      <workItem from="1751370197261" duration="5394000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="annual website redesign" />
+    <option name="LAST_COMMIT_MESSAGE" value="annual website redesign" />
+  </component>
+</project>

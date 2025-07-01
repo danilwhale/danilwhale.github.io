@@ -1,0 +1,12 @@
+---
+title: yet another rewrite
+description: i love rewriting this website over and over
+date: "2025-04-03"
+---
+
+welcome to another rewrite™ of this website
+
+as you can see, i added *blog*, so now i can add post about rewriting this website or some random shit. idk if i'll actually
+use it, probably not.
+
+hopefully, github actions will publish this first try and i won't have to fight it again. :clueless:
