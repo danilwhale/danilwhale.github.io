@@ -1,51 +1,53 @@
 <script lang="ts">
     import {OpCode} from "$lib";
-    import {WebSocket} from "ws";
+    import { onMount } from 'svelte';
 
     const userId = "1191777214467940414";
     let iconUrl = `https://api.lanyard.rest/${userId}.png`;
     let iconBorderColor = "rgba(0.0, 0.0, 0.0, 0.0)";
 
-    const ws = new WebSocket("wss://api.lanyard.rest/socket");
-    ws.addEventListener("message", e => {
-        const jason = JSON.parse(e.data);
-        switch (jason.op) {
-            case OpCode.Event:
-                switch (jason.t) {
-                    case "INIT_STATE":
-                        updateIconBorder(jason.d[userId].discord_status);
-                        break;
-                    case "PRESENCE_UPDATE":
-                        updateIconBorder(jason.d.discord_status);
-                        break;
-                }
+    onMount(() => {
+        const ws = new WebSocket("wss://api.lanyard.rest/socket");
+        ws.addEventListener("message", e => {
+            const jason = JSON.parse(e.data);
+            switch (jason.op) {
+                case OpCode.Event:
+                    switch (jason.t) {
+                        case "INIT_STATE":
+                            updateIconBorder(jason.d[userId].discord_status);
+                            break;
+                        case "PRESENCE_UPDATE":
+                            updateIconBorder(jason.d.discord_status);
+                            break;
+                    }
 
-                break;
-            case OpCode.Hello:
-                setInterval(() => {
-                    ws.send(JSON.stringify({op: OpCode.Heartbeat}));
-                }, jason.d.heartbeat_interval)
-                ws.send(JSON.stringify({op: OpCode.Initialize, d: {subscribe_to_ids: [userId]}}))
-                break;
-        }
-    })
+                    break;
+                case OpCode.Hello:
+                    setInterval(() => {
+                        ws.send(JSON.stringify({op: OpCode.Heartbeat}));
+                    }, jason.d.heartbeat_interval)
+                    ws.send(JSON.stringify({op: OpCode.Initialize, d: {subscribe_to_ids: [userId]}}))
+                    break;
+            }
+        })
 
-    function updateIconBorder(status: string) {
-        switch (status) {
-            case "online":
-                iconBorderColor = "#63c055";
-                break;
-            case "idle":
-                iconBorderColor = "#deb13f";
-                break;
-            case "dnd":
-                iconBorderColor = "#ef4141";
-                break;
-            default:
-                iconBorderColor = "#737373";
-                break;
+        function updateIconBorder(status: string) {
+            switch (status) {
+                case "online":
+                    iconBorderColor = "#63c055";
+                    break;
+                case "idle":
+                    iconBorderColor = "#deb13f";
+                    break;
+                case "dnd":
+                    iconBorderColor = "#ef4141";
+                    break;
+                default:
+                    iconBorderColor = "#737373";
+                    break;
+            }
         }
-    }
+    });
 </script>
 
 <style>
