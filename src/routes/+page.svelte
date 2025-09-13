@@ -13,7 +13,7 @@
         <ul>
             <li>sharpcraft - unsupported, c0.0.11a; was made when learning raylib, buggy and laggy</li>
             <li>sharpcraft-indev - archived, in-20100223; never saw the light of the day; made with raylib</li>
-            <li>sharpcraft-2 - active, in-20100223; clean room approach; made with OpenGL (<a href="https://github.com/dotnet/Silk.NET">Silk.NET</a>) and SDL3 (<a href="https://github.com/ppy/SDL3-CS">ppy.SDL3-CS</a>)</li>
+            <li>sharpcraft-2 - hiatus, in-20100223; clean room approach; made with OpenGL (<a href="https://github.com/dotnet/Silk.NET">Silk.NET</a>) and SDL3 (<a href="https://github.com/ppy/SDL3-CS">ppy.SDL3-CS</a>)</li>
         </ul>
     </li>
     <li>
