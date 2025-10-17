@@ -4,8 +4,7 @@
 
 <DiscordCard/>
 
-<p>a chronic internet user doing random projects for over 4 years with C# (rarely Java or C++) and games using OpenGL</p>
-<p>over the course of these years I made <b>~950 projects</b> <i>(although 99.9% of them are private and hidden in the depths of my hard drive)</i></p>
+<p>i'm writing stuff with C# (rarely Java or C++) and games using OpenGL</p>
 <ul>
     <li>
         <a href="https://github.com/danilwhale/sharpcraft">sharpcraft</a>
