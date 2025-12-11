@@ -7,6 +7,10 @@
 <p>i'm writing stuff with C# (rarely Java or C++) and games using OpenGL</p>
 <ul>
     <li>
+        <a href="https://github.com/danilwhale/ignitron">ignitron</a>
+        <i>- active; a modloader for <a href="https://store.steampowered.com/app/3516590/Allumeria">allumeria</a></i>
+    </li>
+    <li>
         <a href="https://github.com/danilwhale/sharpcraft">sharpcraft</a>
         <i>- dead; yet another ancient Minecraft clone, made with C#</i>
         <ul>
